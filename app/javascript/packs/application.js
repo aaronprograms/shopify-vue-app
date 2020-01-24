@@ -4,10 +4,10 @@ import App from '../components/app.vue'
 document.addEventListener('DOMContentLoaded', () => {
   document.body.appendChild(document.createElement('app'))
   const app = new Vue({
-    el: 'app',
+    el: 'app', 
     template: '<App/>',
-    components: { App }
-  })
+    components: { App },
+    render: h => h(App) })
 
   console.log(app)
 })

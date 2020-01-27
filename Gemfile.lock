@@ -110,6 +110,7 @@ GEM
     multi_json (1.13.1)
     multi_xml (0.6.0)
     multipart-post (2.1.1)
+    ngrok-tunnel (2.1.1)
     nio4r (2.5.2)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
@@ -219,6 +220,7 @@ DEPENDENCIES
   dotenv-rails
   foreman
   listen (>= 3.0.5, < 3.2)
+  ngrok-tunnel
   pg (>= 0.18, < 2.0)
   puma (~> 3.11)
   rails (~> 6.0.2.1)

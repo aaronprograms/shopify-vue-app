@@ -5,7 +5,9 @@
     });
   </script>
 <% end %>
-<h2>Products</h2>
+<%
+=begin%>
+ <h2>Products</h2>
 
 <ul>
   <% @products.each do |product| %>
@@ -25,4 +27,6 @@
   </ul>
 <% else %>
   <p>This app has not created any webhooks for this Shop. Add webhooks to your ShopifyApp initializer if you need webhooks</p>
-<% end %>
+<% end %> 
+<%
+=end%>

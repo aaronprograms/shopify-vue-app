@@ -8,7 +8,7 @@
   export default {
     data: function () {
       return {
-        message: "Welcome to Vue!"
+        message: "Welcome to Aaron's App using Vue!" 
       }
     }
   }
